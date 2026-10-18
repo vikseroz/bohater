@@ -1,7 +1,25 @@
 string  nazwagracza = "viksa";
-char symbolgracza = "@";
+char symbolgracza = '@';
 int poziom = 2;
-int złoto = 30;
+int zloto = 30;
 double waga = 7.5;
 bool mapa = true;
-Console.Write(poziom); 
+Console.WriteLine ($"=== EKWIPUNEK ===");
+Console.WriteLine($"nazwa gracza (string): {nazwagracza}");
+Console.WriteLine($"symbol gracza (char): {symbolgracza}");
+Console.WriteLine($"Poziom gracza (int): {poziom}");
+Console.WriteLine($"zloto gracza (int) : {zloto}");
+Console.WriteLine($"waga gracza (double) : {waga}");
+Console.WriteLine($"ma mape (bool) : {mapa}");
+Console.WriteLine();
+
+poziom = 4;
+zloto = 50;
+Console.WriteLine ($"=== EKWIPUNEK v2 ===");
+Console.WriteLine($"nazwa gracza (string): {nazwagracza}");
+Console.WriteLine($"symbol gracza (char): {symbolgracza}");
+Console.WriteLine($"Poziom gracza (int): {poziom}");
+Console.WriteLine($"zloto gracza (int) : {zloto}");
+Console.WriteLine($"waga gracza (double) : {waga}");
+Console.WriteLine($"ma mape (bool) : {mapa}");
+Console.WriteLine();
